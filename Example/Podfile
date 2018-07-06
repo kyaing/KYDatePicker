@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KYDatePicker_Example' do
+  pod 'KYDatePicker', :path => '../'
+
+  target 'KYDatePicker_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

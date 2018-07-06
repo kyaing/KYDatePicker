@@ -1,0 +1,6 @@
+framework module KYDatePicker {
+  umbrella header "KYDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
